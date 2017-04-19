@@ -219,3 +219,13 @@
 
 
 
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+
+.modal-body {
+	font-family: 'Montserrat', sans-serif !important;
+}
