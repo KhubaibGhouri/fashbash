@@ -17,6 +17,7 @@ import { Header2Component } from './header-2/header-2.component';
 import { ComingSoonComponent } from './coming-soon/coming-soon.component';
 import { Header3Component } from './header-3/header-3.component';
 import { Home2Component } from './home-2/home-2.component';
+import { PopupsComponent } from './popups/popups.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { Home2Component } from './home-2/home-2.component';
     Header2Component,
     ComingSoonComponent,
     Header3Component,
-    Home2Component
+    Home2Component,
+    PopupsComponent
   ],
   imports: [
     BrowserModule,

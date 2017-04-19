@@ -9,6 +9,7 @@ import { OtherProfileComponent } from './other-profile/other-profile.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { ComingSoonComponent } from './coming-soon/coming-soon.component';
 import { Home2Component } from './home-2/home-2.component';
+import { PopupsComponent } from './popups/popups.component';
 
 export const router: Routes = [
 
@@ -19,7 +20,9 @@ export const router: Routes = [
     { path: 'other-profile',component: OtherProfileComponent },
     { path: 'user-profile',component: UserProfileComponent },
     { path: 'coming-soon',component: ComingSoonComponent },
-    { path: 'home-2',component: Home2Component}
+    { path: 'home-2',component: Home2Component},
+    { path: 'popups',component: PopupsComponent}
+    
 
 ];
 
