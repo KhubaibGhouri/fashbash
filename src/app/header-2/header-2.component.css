@@ -337,6 +337,7 @@ h3.card-profile-h {
 	}
 	.btn-custom{
 		width:110px !important;
+        font-size: 10px;
 	}
 	.img-cardz{
 		margin:0px auto !important;
@@ -388,6 +389,7 @@ h3.card-profile-h {
 	.box-p-h{
 		padding:0px !important;
 	}
+   
 
 }
 @media screen and (max-width:500px) {

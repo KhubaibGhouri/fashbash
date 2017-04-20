@@ -218,7 +218,7 @@ h3.card-profile-h {
     border-bottom: 1px solid #ECECEC;
 }
 .menu_links .nav>li>a{
-  color: #000;
+  color:#575757;
   font-family: 'Montserrat';
   transition: 0.4s all;
 }
@@ -307,8 +307,8 @@ ul.link-space{
 }
 
 .card-profile_img img {
-    width: 85px;
-    height: 85px;
+    width: 75px;
+    height: 75px;
     margin: auto;
 
     border: 2px solid white;
@@ -359,7 +359,14 @@ span.card-bottom_numbers {
     color: white;
     background: #77d2d0;
 }
-
+.btn-profile-unfollow{
+    display: block;
+    max-width: 80px;
+    padding: 4px 0;
+    margin: auto;
+    color: white;
+    background: #D9D9D9;
+}
 .cardWrap_feed p:first-child{
   color: #000;
    font-family: 'Montserrat';
@@ -500,6 +507,9 @@ span.card-bottom_numbers {
 /* Responsive */
 
 @media screen and (max-width:768px){
+    .btn-custom{
+        font-size: 10px !important;
+    }
 	.navbar.myNav .container-fluid{
 		width:50% !important;
 		
@@ -516,6 +526,7 @@ span.card-bottom_numbers {
 	}
 	.btn-custom{
 		width:110px !important;
+        font-size: 1px !important;
 	}
 	.img-cardz{
 		margin:0px auto !important;
@@ -533,6 +544,9 @@ span.card-bottom_numbers {
         .box-p-h{
 		padding:0px !important;
 	}
+     .box-txt span{
+        font-size: 14px !important;
+    }
 }
 @media screen and (max-width: 1100px) and (min-width: 769px) {
 
@@ -594,6 +608,7 @@ span.card-bottom_numbers {
         }
 }
 @media screen and (max-width: 1100px) and (min-width: 501px) {
+    
     .blue_txt{
         font-size: 60px;
     }
@@ -648,6 +663,9 @@ span.card-bottom_numbers {
 	.footer_links{
 		padding-left:0px;
 	}
+     .box-txt span{
+        font-size: 16px !important;
+    }
 }
 @media only screen and (max-width: 992px) {
     body {
@@ -682,4 +700,6 @@ span.card-bottom_numbers {
     .bg-wrap {
         padding: 20px 0;
     }
+   
 }
+
