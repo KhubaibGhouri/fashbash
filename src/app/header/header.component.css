@@ -443,3 +443,12 @@ h3.card-profile-h {
         padding: 20px 0;
     }
 }
+.brthday{
+    border: 0;
+    box-shadow: none;
+
+}
+input[id="brthday"]::-webkit-input-placeholder {
+color:#000 !important;
+    font-family: "Montserrat", sans-serif;
+}

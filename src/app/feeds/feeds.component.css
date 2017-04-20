@@ -221,6 +221,7 @@ h3.card-profile-h {
   color:#575757;
   font-family: 'Montserrat';
   transition: 0.4s all;
+  font-size: 16px;
 }
 .menu_links .nav>li>a:hover{
   background: transparent;

@@ -218,9 +218,10 @@ h3.card-profile-h {
     border-bottom: 1px solid #ECECEC;
 }
 .menu_links .nav>li>a{
-  color: #000;
+  color: #575757;
   font-family: 'Montserrat';
   transition: 0.4s all;
+  font-size: 16px;
 }
 .menu_links .nav>li>a:hover{
   background: transparent;
@@ -304,6 +305,7 @@ ul.link-space{
     border-top: 1px solid #e7e7e7;
     border-right: 0;
     border-left: 0;
+    border-color: transparent;
 }
 
 .card-profile_img img {
@@ -685,4 +687,7 @@ span.card-bottom_numbers {
     .bg-wrap {
         padding: 20px 0;
     }
+}
+.mrgn_adj{
+        margin-top: 80px;
 }
