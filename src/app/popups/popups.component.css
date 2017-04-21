@@ -135,3 +135,6 @@ border-bottom:1px solid #eee;
     background: #eee;
     padding: 15px 0px;
 }
+.btn-rounded{
+    border-radius: 5px;
+}
