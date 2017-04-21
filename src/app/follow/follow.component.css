@@ -327,8 +327,7 @@ ul.link-space{
     padding: 15px 10px;
 
     font-size: 14px;
-
-    border-top: 1px solid #e7e7e7;
+border-bottom: none;
 }
 
 span.card-bottom_numbers {
