@@ -306,6 +306,8 @@ span.card-bottom_numbers {
 .user_detail .btn-default{
     background-color:#e6e6e6;
     padding:7px 30px;
+    border:0;
+    font-family:"Montserrat";
 }
 .card-profile-3{
 	background:transparent !important
