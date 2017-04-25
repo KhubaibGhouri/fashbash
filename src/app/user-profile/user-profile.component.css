@@ -65,6 +65,7 @@ h3.card-profile-h {
   color: #000;
   font-family: 'Montserrat';
   transition: 0.4s all;
+  font-size: 16px;
 }
 .menu_links .nav>li>a:hover{
   background: transparent;
@@ -222,7 +223,7 @@ span.card-bottom_numbers {
 .price {
     font-size: 1.25em;
     font-weight: bold;
-
+ font-family: 'Montserrat';
     color: #77d2d0;
 }
 
@@ -251,6 +252,7 @@ span.card-bottom_numbers {
 
 .menu_links {
     text-align: center;
+    font-size: 16px;
 }
 
 .container-fluid.main_border {

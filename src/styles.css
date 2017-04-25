@@ -202,11 +202,11 @@
 
 
 .radio-info input[type="radio"] + label::after {outline: none;
-  background-color: #5bc0de; }
+  background-color: #77D2D0; }
 .radio-info input[type="radio"]:checked + label::before {outline: none;
-  border-color: #5bc0de; }
+  border-color: #77D2D0; }
 .radio-info input[type="radio"]:checked + label::after {outline: none;
-  background-color: #5bc0de; outline: none;}
+  background-color: #77D2D0; outline: none;}
 
 
 .mdl_btn{

@@ -169,8 +169,8 @@ a.navbar-brand img {
 h3.card-profile-h {
     margin-top: 50px;
 
-    font-size: 16px;
-
+    font-size: 18px;
+    font-weight: bold;
     text-align: center;
 }
 
@@ -309,23 +309,24 @@ ul.link-space{
 }
 
 .card-profile_img img {
-    width: 85px;
-    height: 85px;
+    width: 115px;
+    height: 115px;
     margin: auto;
 
-    border: 2px solid white;
+    border: 1px solid #E7E7E7;
+    padding: 2px;
     border-radius: 50%;
 }
 
 .card-profile_img {
     position: absolute;
-    top: -44px;
+    top: -75px;
     right: 0;
     left: 0;
 }
 .card-bottom {
     padding: 15px 10px;
-
+text-align: center;
     font-size: 14px;
 border-bottom: none;
 }
